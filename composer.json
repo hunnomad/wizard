@@ -1,0 +1,20 @@
+{
+    "name": "hunnomad/wizard",
+    "description": "A simple PHP encryption and decryption utility.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zsolt Boszormenyi",
+            "email": "hunnomad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Custom\\Encryption\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
